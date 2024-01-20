@@ -161,3 +161,40 @@ a{
     height: 4px;
     background-color: var(--orange-color);
 }
+
+.site-header__cart {
+    padding-right: 20px;
+}
+
+.site-header__cart-link {
+    display: flex;
+    position: relative;
+    color: var(--text-color);
+}
+
+.site-header__cart-link:hover{
+    color: var(--header-color);
+}
+
+.site-header__cart-link:active{
+    opacity: 0.6;
+}
+
+.site-header__cart-count {
+    position: absolute;
+    top: -6px;
+    left: calc(100% - 13px);
+    padding: 1px 6px;
+    font-size: 10px;
+    line-height: normal;
+    font-weight: bold;
+    border-radius: 7px;
+    background-color: var(--orange-color);
+    color: #fff;
+}
+
+.site-header__cart-icon {
+    width: 22px;
+    height: 20px;
+    object-fit: contain;
+}
